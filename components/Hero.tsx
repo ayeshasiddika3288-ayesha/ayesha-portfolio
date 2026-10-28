@@ -26,7 +26,7 @@ export default function Hero() {
     }
   };
 
-    const socials = [
+  const socials = [
     { Icon: FaGithub, href: LINKS.github, label: "GitHub" },
     { Icon: FaLinkedinIn, href: LINKS.linkedin, label: "LinkedIn" },
     { Icon: FaFacebookF, href: LINKS.facebook, label: "Facebook" },
@@ -36,12 +36,19 @@ export default function Hero() {
     <section id="home" className="flex min-h-screen scroll-mt-20 items-center px-5 pb-16 pt-28">
       <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-[1.2fr_1fr]">
         <div className="order-2 md:order-1">
+          <span className="mb-4 inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs font-medium text-emerald-300">
+            <span className="h-2 w-2 rounded-full bg-emerald-400" />
+            Open to internships &amp; junior roles
+          </span>
           <p className="mb-3 text-slate-400">Hello, I&apos;m</p>
           <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-6xl">Ayesha Siddika</h1>
-          <p className="mt-4 text-xl font-medium text-amber-300">Aspiring Full Stack Developer | CSE Student</p>
+          <p className="mt-4 text-xl font-medium text-amber-300">
+            Full Stack Developer (Next.js &amp; MERN) | UI/UX Background
+          </p>
           <p className="mt-5 max-w-xl leading-relaxed text-slate-400">
-            I build responsive web apps with React, Next.js and TypeScript, and I&apos;m learning to connect them to
-            secure backends.
+            CSE student building full-stack web apps with Next.js, TypeScript, Node.js and MongoDB. With a UI/UX design
+            background, I care about how an app works and how it feels to use. Looking for a junior software engineer
+            role or internship.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4">
