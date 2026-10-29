@@ -7,11 +7,12 @@ const EDU = [
     status: "In Progress",
     note: "Currently in the 8th semester out of 9. Coursework covers data structures, databases, and software engineering.",
   },
-    {
+  {
     degree: "Diploma in Engineering (Computer Technology)",
     school: "Noakhali Ideal Polytechnic Institute (NIPI), BTEB",
     status: "2019 - 2023",
-},
+    note: "CGPA 3.60 out of 4.00, with an A+ in the 8th semester industrial training. Built the foundation in programming, networking, and computer systems.",
+  },
 ];
 
 export default function Education() {
