@@ -1,7 +1,7 @@
 import { ArrowUp, Mail } from "lucide-react";
 import { FaGithub, FaLinkedinIn, FaFacebookF, FaBehance, FaWhatsapp } from "react-icons/fa";
 import { LINKS } from "@/data/links";
-import Logo from './logo';
+import Logo from "./Logo";
 
 const NAV = ["home", "about", "skills", "education", "experience", "projects", "contact"];
 

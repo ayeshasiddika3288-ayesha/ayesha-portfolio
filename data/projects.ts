@@ -3,8 +3,8 @@ export type Project = {
   name: string;
   image: string;
   summary: string;
-  description: string;
   stack: string[];
+  description: string;
   live: string;
   github: string;
   challenges: string;
@@ -13,51 +13,46 @@ export type Project = {
 
 export const PROJECTS: Project[] = [
   {
-    slug: "fitlog",
-    name: "FitLog — Workout Library",
-    image: "/images/fitlog.png",
-    summary:
-      "A responsive workout library for exploring exercises and planning daily workouts.",
-    description:
-      "FitLog is a workout library built with Next.js and Tailwind CSS. Users can explore exercises, view workout details, create a daily workout plan, and save favorite exercises.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
-    live: "https://b14-assignment-06.vercel.app/",
-    github: "https://github.com/ayeshasiddika3288-ayesha/B14-Assignment-06",
-    challenges:
-      "Building a responsive layout, organizing workout information, and managing the daily workout plan.",
-    future:
-      "Add user authentication, save workout plans permanently, and introduce workout progress tracking.",
-  },
-  {
     slug: "bazar-dor",
     name: "Bazar Dor",
     image: "/images/bazar-dor.png",
-    summary:
-      "A Bangladeshi product price-tracking website showing daily market prices.",
+    summary: "A Bangladeshi grocery price-tracking website with secure user authentication.",
+    stack: ["Next.js", "TypeScript", "BetterAuth", "MongoDB Atlas", "Tailwind CSS"],
     description:
-      "Bazar Dor is a Next.js web application that displays product prices and helps users compare current prices with previous prices.",
-    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "API"],
-    live: "#",
-    github: "#",
+      "Bazar Dor is a Next.js web application for tracking Bangladeshi grocery prices across categories, with secure user authentication built with BetterAuth and MongoDB Atlas.",
+    live: "https://b14-a7-bazar-dor-six.vercel.app/",
+    github: "https://github.com/ayeshasiddika3288-ayesha/B14-A7-Bazar-Dor",
     challenges:
-      "Fetching API data, displaying product information, and handling loading and error states.",
+      "Setting up BetterAuth with MongoDB Atlas, fetching and displaying price data, and handling loading and error states.",
     future:
-      "Add price history charts, product search, category filters, and user authentication.",
+      "Add price history charts, price-drop alerts, product search and a favorites list for each user.",
+  },
+  {
+    slug: "fitlog",
+    name: "FitLog — Workout Library",
+    image: "/images/fitlog.png",
+    summary: "A responsive workout library for exploring exercises and planning daily workouts.",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    description:
+      "FitLog is a responsive workout library where users can explore exercises and plan their daily workouts in a clean interface.",
+    live: "https://b14-assignment-06.vercel.app/",
+    github: "https://github.com/ayeshasiddika3288-ayesha/B14-Assignment-06",
+    challenges:
+      "Structuring reusable components and keeping the layout responsive across screen sizes.",
+    future: "Add workout history, progress tracking and a personal routine builder.",
   },
   {
     slug: "movie-explorer",
     name: "Movie Explorer",
     image: "/images/movie-explorer.png",
-    summary:
-      "A movie discovery interface for exploring movie information.",
+    summary: "A movie discovery interface for exploring movie information.",
+    stack: ["React", "JavaScript", "CSS"],
     description:
-      "Movie Explorer is a web project designed to present movie information in an organized and user-friendly interface.",
-    stack: ["React", "JavaScript", "CSS", "API"],
-    live: "#",
-    github: "#",
+      "Movie Explorer is a movie discovery app where users can browse movies and view key information in a clean, responsive interface.",
+    live: "https://movie-explorer-psi-dusky.vercel.app/",
+    github: "https://github.com/ayeshasiddika3288-ayesha/movie-explorer",
     challenges:
-      "Organizing movie cards, building a responsive interface, and presenting movie information clearly.",
-    future:
-      "Add movie search, genre filters, detailed movie pages, and favorites.",
+      "Fetching data from an API, handling loading and error states, and keeping the interface responsive.",
+    future: "Add search, genre filters, a watchlist and user reviews.",
   },
 ];

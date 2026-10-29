@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import Logo from './logo';
+import Logo from "./Logo";
 
 const NAV = ["home", "about", "skills", "education", "experience", "projects", "contact"];
 
