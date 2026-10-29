@@ -5,7 +5,7 @@ const EDU = [
     degree: "B.Sc. in Computer Science & Engineering",
     school: "Northern University Bangladesh",
     status: "In Progress",
-    note: "Currently in the 8th semester out of 9. Coursework covers data structures, databases, and software engineering.",
+    note: "8th semester running (out of 9). CGPA 3.35 up to the 7th semester. Coursework covers data structures, databases, and software engineering.",
   },
   {
     degree: "Diploma in Engineering (Computer Technology)",
